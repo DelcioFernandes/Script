@@ -2,19 +2,36 @@
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <title>Executar Script VFS</title>
+  <title>Gerenciador de Processos</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    button {
+      margin: 5px;
+      padding: 10px;
+      background: #007bff;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
-  <h2>Gerenciador de Login/Processo</h2>
-  <button onclick="executarScript()">Iniciar Script</button>
+  <h2>Gerenciador de Processos (Mobile)</h2>
+  <button onclick="iniciar()">Executar Script</button>
 
   <script>
-    function executarScript() {
-      // Cole aqui o código JS do seu script
-      alert("Seu script está rodando!");
-
-      // Exemplo: redirecionar para o site e rodar algo
-      window.location.href = "https://visa.vfsglobal.com/ago/en/prt/login";
+    function iniciar() {
+      // Aqui você cola o script do gerenciador de processos que criamos
+      alert('Script iniciado!');
     }
   </script>
 </body>
